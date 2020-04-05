@@ -22,32 +22,13 @@
             "Remove-Item \"$dir\\IDE\\`$*\", \"$dir\\portable.ps1\" -Force -Recurse"
         ]
     },
-    "architecture": {
-        "64bit": {
-            "bin": [
-                "IDE\\bin\\studio64.exe",
-                [
-                    "IDE\\bin\\studio64.exe",
-                    "idea"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "IDE\\bin\\studio64.exe",
-                    "Android Studio"
-                ]
-            ]
-        },
-        "32bit": {
-            "bin": "IDE\\bin\\studio.exe",
-            "shortcuts": [
-                [
-                    "IDE\\bin\\studio.exe",
-                    "Android Studio"
-                ]
-            ]
-        }
-    },
+    "bin": "IDE\\bin\\studio64.exe",
+    "shortcuts": [
+        [
+            "IDE\\bin\\studio64.exe",
+            "Android Studio"
+        ]
+    ],
     "env_set": {
         "ADB": "%ANDROID_HOME%\\platform-tools;%ANDROID_HOME%\tools"
     },
