@@ -1,0 +1,23 @@
+{
+	"homepage": "https://www.autohotkey.com/",
+	"description": "AutoHotKey Scripts",
+	"version": "1.0.0",
+	"license": "Freeware",
+	"url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/ahk-scripts.zip",
+	"hash": "4CCA773F9FB04E4A2A5A5070B7512C16F464ABBF2F456CEDC629BD7BF08B2B7C",
+	"bin": "mmap.exe",
+	"shortcuts": [
+		[
+			"mmap.exe",
+			"mmap"
+		],
+		[
+			"mouse.exe",
+			"mouse"
+		],
+		[
+			"drag.exe",
+			"drag"
+		]
+    ]	
+} 

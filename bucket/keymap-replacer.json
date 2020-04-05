@@ -1,0 +1,15 @@
+{
+	"homepage": "http://www.keymap.replacer.com",
+	"description": "Keymap Replace",
+	"version": "1.0.0",
+	"license": "Freeware",
+	"url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/keymap-replacer.zip",
+	"hash": "80C50285BBCC4D3A96911AC416C9D11C3AC9DFD3D21098DB5A6B0A7C274B4E18",
+	"bin": "KeymapReplacer.exe",
+	"shortcuts": [
+		[
+			"KeymapReplacer.exe",
+			"KeymapReplacer"
+		]
+    ]	
+} 

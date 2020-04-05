@@ -1,0 +1,15 @@
+{
+	"homepage": "https://www.lanzous.com/i8rbt9e",
+	"description": "Scrcpy GUI.",
+	"version": "1.7.0",
+	"license": "Freeware",
+	"url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/scrcpy-gui.zip",
+	"hash": "FA1B6379B58AEEC701AB750B800D16F4861880A30292C6527A9365732A3297FC",
+	"bin": "Scrcpy_GUI_byCZ_V1.7.0.exe",
+	"shortcuts": [
+		[
+			"Scrcpy_GUI_byCZ_V1.7.0.exe",
+			"Scrcpy"
+		]
+    ]	
+} 

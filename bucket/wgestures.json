@@ -1,0 +1,26 @@
+{
+    "homepage":"http://www.yingdev.com/projects/wgestures",
+    "description":"WGestures全局鼠标手势",
+    "version":"1.8.4.0",
+    "url":"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/wgestures.zip",
+    "hash":"9BA821DA0196701976A846E66206960E7C16D3E6526E2993C08EF471356C543D",
+    "installer": {
+        "file": "InstallWGestures.exe",
+        "args": [
+            "/quiet"
+        ],
+        "keep": true
+    },
+    "uninstaller": {
+        "file": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\WGestures\\卸载WGestures.lnk",
+        "args": [
+            "start"
+        ],
+        "keep": true
+    },
+    "shortcuts": [
+        [
+            
+        ]
+    ]
+}
