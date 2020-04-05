@@ -26,7 +26,7 @@
 
         "Copy-Item \"$env:APPS\\Ditto.lnk\" -Destination \"$env:START_UP\\Ditto.lnk\"",
         "Copy-Item \"$env:APPS\\quicklook.lnk\" -Destination \"$env:START_UP\\quicklook.lnk\""
-        "Copy-Item \"$env:APPS\\huochat.lnk\" -Destination \"$env:START_UP\\huochat.lnk\""
+        "Copy-Item \"$env:APPS\\HuoChat.lnk\" -Destination \"$env:START_UP\\HuoChat.lnk\""
 
         "Copy-Item \"$env:APPS\\mouse.lnk\" -Destination \"$env:START_UP\\mouse.lnk\"",
         "Copy-Item \"$env:APPS\\drag.lnk\" -Destination \"$env:START_UP\\drag.lnk\"",
