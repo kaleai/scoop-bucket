@@ -26,9 +26,9 @@ scoop bucket add my https://github.com/tianzhijiexian/scoop-bucket
 1. bandizpi
 16. huochat
 17. env-config
+18. listary
 
 ## TODO
 
 1. qqpinyin
-2. listary
 3. xyplorer
