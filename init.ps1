@@ -32,7 +32,7 @@ scoop install git curl sudo aria2
 scoop config aria2-enabled true
 scoop config aria2-max-connection-per-server 16
 scoop config aria2-split 16
-scoop config aria2-min-split-size 1M
+scoop config aria2-min-split-size 10M
 
 ### 安装必选包（5）
 
@@ -52,9 +52,9 @@ scoop install oraclejdk adb android-sdk my/android-studio IntelliJ-IDEA-portable
 scoop install my/quicklook my/listary my/keymap-replacer my/caps-unlocker my/bandizip my/mouse-inc my/yx-calendar
 scoop install my/wgestures my/huochat my/ahk-scripts 
 
-### 安装自定bucket中非必选包（4）
+### 安装自定bucket中非必选包（5）
 
-scoop install my/wechat my/paper-icons my/yynote my/setpoint
+scoop install my/wechat my/paper-icons my/yynote my/setpoint my/open-hashtab
 
 ### 配置环境信息（1）
 
