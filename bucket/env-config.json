@@ -5,14 +5,14 @@
 	"license": "Freeware",
 	"url": [
 		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/env-config.zip",
-		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/.bash_profile"
+		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/.bash_profile",
+		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/.gitconfig"
 	],
 	"hash": [
-		"951a7db0c058815873886a4c8eaa2d68f08cdce8e05fc73df9ae378524698ca7",
-		"eba7fd3133dec4dbdd96b1484765a732c6c8b380473263bc4c72f7406ea5a821"
+		"C3AD7997587DB72D59C2A8E790150FA85DFB44BB16CC13DFAB6085953D4CEF86",
+		"eba7fd3133dec4dbdd96b1484765a732c6c8b380473263bc4c72f7406ea5a821",
+		"3A5D06D51FA22179BF606DC417F3D1AE3360D6F5BDB947EB00304A3ED79BB232"
 	],
-	"bin": "环境变量.bat",
-	
 	"env_set": {
         "OLD_CLASSPATH": ".;%JAVA_HOME%\bin;%JAVA_HOME%\\lib\\dt.jar;%JAVA_HOME%\\lib\tools.jar"
     },
@@ -26,8 +26,6 @@
         "Copy-Item \"$dir\\.bash_profile\" -Destination \"$env:USERPROFILE\\.bash_profile\"",
 
         "Copy-Item \"$env:APPS\\Ditto.lnk\" -Destination \"$env:START_UP\\Ditto.lnk\"",
-        "Copy-Item \"$env:APPS\\QuickLook.lnk\" -Destination \"$env:START_UP\\QuickLook.lnk\"",
-
         "Copy-Item \"$env:APPS\\Snipaste.lnk\" -Destination \"$env:START_UP\\Snipaste.lnk\"",
     ],
 	"shortcuts": [
@@ -38,6 +36,10 @@
 		[
 			"黑域命令.bat",
 			"黑域命令"
+		],
+		[
+			"睡眠.lnk",
+			"睡眠"
 		]
     ]	
 } 
