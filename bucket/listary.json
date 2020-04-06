@@ -7,15 +7,17 @@
     "installer": {
         "file": "ListaryInstaller.exe",
         "args": [
+            "/dir=\"$dir\"",
             "/verysilent",
             "/norestart"
         ],
         "keep": true
     },
     "uninstaller": {
-    	"file": "C:\\Program Files\\Listary\\unins000.exe",
+        "file": "unins000.exe",
         "args": [
             "/verysilent",
+            "/norestart",
             "/suppressmsgboxes"
         ],
         "keep": true
