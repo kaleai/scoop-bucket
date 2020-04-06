@@ -26,7 +26,7 @@
         "Copy-Item \"$dir\\.bash_profile\" -Destination \"$env:USERPROFILE\\.bash_profile\"",
 
         "Copy-Item \"$env:APPS\\Ditto.lnk\" -Destination \"$env:START_UP\\Ditto.lnk\"",
-        "Copy-Item \"$env:APPS\\Snipaste.lnk\" -Destination \"$env:START_UP\\Snipaste.lnk\"",
+        "Copy-Item \"$env:APPS\\Snipaste.lnk\" -Destination \"$env:START_UP\\Snipaste.lnk\""
     ],
 	"shortcuts": [
 		[
