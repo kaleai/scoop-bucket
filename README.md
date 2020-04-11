@@ -31,4 +31,3 @@ scoop bucket add my https://github.com/tianzhijiexian/scoop-bucket
 ## TODO
 
 1. qqpinyin
-3. xyplorer

@@ -38,19 +38,19 @@ scoop config aria2-min-split-size 10M
 
 scoop install googlechrome ditto sublime-text snipaste cmder-full
 
-### 安装非必选包（9）
+### 安装非必选包（10）
 
 scoop install geekuninstaller freedownloadmanager autohotkey-installer screentogif licecap qttabbar update-qttabbar
-scoop install dorado/dingtalk postman
+scoop install dorado/dingtalk postman typora
 
 ### 安装IDE（8）
 
 scoop install oraclejdk adb android-sdk my/android-studio IntelliJ-IDEA-portable nodejs WebStorm-portable my/scrcpy-gui
 
-### 安装自定义bucket中必选包（10）
+### 安装自定义bucket中必选包（11）
 
 scoop install my/quicklook my/listary my/keymap-replacer my/caps-unlocker my/bandizip my/mouse-inc my/yx-calendar
-scoop install my/wgestures my/huochat my/ahk-scripts 
+scoop install my/wgestures my/huochat my/ahk-scripts my/xyplorer
 
 ### 安装自定bucket中非必选包（5）
 
