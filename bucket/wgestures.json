@@ -17,7 +17,7 @@
     "uninstaller": {
         "file": "unins000.lnk",
         "args": [
-            "start"
+            "/quiet"
         ],
         "keep": true
     },
