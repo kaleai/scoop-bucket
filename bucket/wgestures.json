@@ -12,7 +12,7 @@
         "keep": true
     },
     "post_install": [
-        "Copy-Item \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\WGestures\\卸载WGestures.lnk\" -Destination \"$dir\\unins000.lnk\"",
+        "Copy-Item \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\WGestures\\卸载WGestures.lnk\" -Destination \"$dir\\unins000.lnk\""
     ],
     "uninstaller": {
         "file": "unins000.lnk",
