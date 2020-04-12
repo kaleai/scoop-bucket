@@ -47,10 +47,10 @@ scoop install dorado/dingtalk postman typora
 
 scoop install oraclejdk adb android-sdk my/android-studio IntelliJ-IDEA-portable nodejs WebStorm-portable my/scrcpy-gui
 
-### 安装自定义bucket中必选包（11）
+### 安装自定义bucket中必选包（12）
 
 scoop install my/quicklook my/listary my/keymap-replacer my/caps-unlocker my/bandizip my/mouse-inc my/yx-calendar
-scoop install my/wgestures my/huochat my/ahk-scripts my/xyplorer
+scoop install my/wgestures my/huochat my/ahk-scripts my/xyplorer my/mactype
 
 ### 安装自定bucket中非必选包（5）
 
