@@ -1,10 +1,10 @@
 {
 	"homepage": "https://docs.shuax.com/MouseInc/",
 	"description": "mouse",
-	"version": "2.10.11",
+	"version": "2.10.16",
 	"license": "Freeware",
-	"url": "https://dl.shuax.com/MouseInc2.10.15.7z",
-	"hash": "2c6fb64f8b9108a462aee11a0d1fcbac737770349a481844060020a4b1dc00e6",
+	"url": "https://dl.shuax.com/MouseInc2.10.16.7z",
+	"hash": "0966DFC70BA908690918660555F76F25F4EB9C1CE51B21EE91436FB924F6D5FA",
 	"extract_dir": "MouseInc",
     "pre_install": "if (!(Test-Path \"$persist_dir\\MouseInc.json\")) { Set-Content \"$dir\\MouseInc.json\" '' -Encoding ASCII }",
     "post_install":[
