@@ -13,6 +13,10 @@
         ],
         "keep": true
     },
+    "post_install":[
+        "$env:TARGET_PATH=\"$env:USERPROFILE\\AppData\\Roaming\\Listary\\UserProfile\\Settings\"",
+        "Copy-Item \"$persist_dir\\Preferences.json\" -Destination \"$env:TARGET_PATH\\Preferences.json\" -Force"
+    ],
     "uninstaller": {
         "file": "unins000.exe",
         "args": [

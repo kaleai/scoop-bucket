@@ -1,7 +1,7 @@
 {
 	"homepage": "https://github.com/tianzhijiexian",
 	"description": "Config user's env",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "Freeware",
 	"url": [
 		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/env-config.zip",
@@ -9,7 +9,7 @@
 		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/.gitconfig"
 	],
 	"hash": [
-		"C3AD7997587DB72D59C2A8E790150FA85DFB44BB16CC13DFAB6085953D4CEF86",
+		"E9BC7A4D36BB20D12EB4215B3D68CDC62835168DABD300D35EF770CBCAAB665F",
 		"eba7fd3133dec4dbdd96b1484765a732c6c8b380473263bc4c72f7406ea5a821",
 		"3A5D06D51FA22179BF606DC417F3D1AE3360D6F5BDB947EB00304A3ED79BB232"
 	],
