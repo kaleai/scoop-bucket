@@ -34,9 +34,9 @@ scoop config aria2-max-connection-per-server 16
 scoop config aria2-split 16
 scoop config aria2-min-split-size 10M
 
-### 安装必选包（5）
+### 安装必选包（6）
 
-scoop install googlechrome ditto sublime-text snipaste cmder-full
+scoop install googlechrome ditto sublime-text snipaste cmder-full windowsterminal-np
 
 ### 安装非必选包（10）
 
