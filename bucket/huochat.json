@@ -11,11 +11,6 @@
         "3F4EAD25BB149F7A407AD14C2B3EE8A6F41AF3BBAE8586092483F8F2E9082E43"
     ],
     "bin": "HuoChat.exe",
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\user data\")) {",
-        "    Copy-Item \"$persist_dir\\user data\" -Destination \"$dir\\user data\"",
-        "}"
-    ],
     "persist": [
         "user data"
     ],
