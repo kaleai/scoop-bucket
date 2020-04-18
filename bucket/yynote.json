@@ -1,10 +1,10 @@
 {
 	"homepage": "http://www.yynote.cn",
 	"description": "小黄条：能嵌入windows桌面的跨平台todolist",
-	"version": "2.0.6",
+	"version": "2.1.0",
 	"license": "Freeware",
 	"url": "http://pic.6fcsj.com/YYNote.zip",
-	"hash": "44AD181D79A48C796FE4352B37E46073EEE227EC003BDF35C11408FD4061B593",
+	"hash": "",
 	"bin": "YYNote\\YYNote.exe",
 	"shortcuts": [
 		[
