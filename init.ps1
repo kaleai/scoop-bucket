@@ -108,4 +108,5 @@ scoop install my/env-config
 
 ### 提权安装包（4）
 
-sudo scoop install my/PingFang-C my/SourceCodePro-Lite SarasaGothic-CL SourceCodePro-NF
+sudo scoop install my/PingFang-C my/SourceCodePro-Lite
+sudo scoop install  SarasaGothic-SC SourceCodePro-NF
