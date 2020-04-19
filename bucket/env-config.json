@@ -5,8 +5,8 @@
 	"license": "Freeware",
 	"url": [
 		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/env-config.zip",
-		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/.bash_profile",
-		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/.gitconfig"
+		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/bash_profile.backup",
+		"https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/git_config.backup"
 	],
 	"hash": [
 		"E9BC7A4D36BB20D12EB4215B3D68CDC62835168DABD300D35EF770CBCAAB665F",
@@ -22,8 +22,8 @@
     	"$env:APPS=\"$env:TEMP_PATH\\Scoop Apps\"",
     	"$env:START_UP=\"$env:TEMP_PATH\\Startup\"",
 
-        "Copy-Item \"$dir\\.gitconfig\" -Destination \"$env:USERPROFILE\\.gitconfig\"",
-        "Copy-Item \"$dir\\.bash_profile\" -Destination \"$env:USERPROFILE\\.bash_profile\"",
+        "Copy-Item \"$dir\\git_config.backup\" -Destination \"$env:USERPROFILE\\.gitconfig\"",
+        "Copy-Item \"$dir\\bash_profile.backup\" -Destination \"$env:USERPROFILE\\.bash_profile\"",
 
         "Copy-Item \"$env:APPS\\Ditto.lnk\" -Destination \"$env:START_UP\\Ditto.lnk\"",
         "Copy-Item \"$env:APPS\\Snipaste.lnk\" -Destination \"$env:START_UP\\Snipaste.lnk\""
