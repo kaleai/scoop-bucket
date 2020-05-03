@@ -94,7 +94,7 @@ scoop install my/huochat
 scoop install my/ahk-scripts
 scoop install my/mactype
 
-### 安装自定bucket中非必选包（6）
+### 安装自定bucket中非必选包（7）
 
 scoop install my/wechat
 scoop install my/paper-icons
@@ -103,6 +103,8 @@ scoop install my/process-hacker
 scoop install my/noMeiryoUI
 scoop install my/yynote
 scoop install my/open-hashtab
+
+scoop install my/space-sniffer
 
 ### 配置环境信息（1）
 
