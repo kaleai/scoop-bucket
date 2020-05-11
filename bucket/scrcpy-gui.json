@@ -4,7 +4,7 @@
 	"version": "1.7.0",
 	"license": "Freeware",
 	"url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/scrcpy-gui.zip",
-	"hash": "FA1B6379B58AEEC701AB750B800D16F4861880A30292C6527A9365732A3297FC",
+	"hash": "61E31FA7E9BA66EDCEAD334B9D6D7CE0AAE15CA7C286AA0C2BB82D5C9F9F5A94",
 	"bin": "Scrcpy_GUI_byCZ_V1.7.0.exe",
 	"shortcuts": [
 		[
