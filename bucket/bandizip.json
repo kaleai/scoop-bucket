@@ -12,7 +12,6 @@
     
     "installer":{
         "script":[
-            "C:\\windows\\System32\\regsvr32.exe $dir\\bdzshl64.dll"
         ]
     },
     "uninstaller":{
