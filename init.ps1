@@ -70,13 +70,13 @@ scoop install terminus
 ### 安装IDE（8）
 
 scoop install oraclejdk
-scoop install IntelliJ-IDEA-portable 111111111
+scoop install IntelliJ-IDEA-portable
 
 scoop install adb 
 scoop install android-sdk
 
 scoop install nodejs
-scoop install WebStorm-portable 1111111111111
+scoop install WebStorm-portable
 
 scoop install my/android-studio
 scoop install my/scrcpy-gui
@@ -105,7 +105,7 @@ scoop install my/process-hacker
 
 scoop install my/noMeiryoUI
 scoop install my/yynote
-scoop install my/open-hashtab 1111111111111111111111
+scoop install my/open-hashtab
 
 scoop install my/space-sniffer
 
