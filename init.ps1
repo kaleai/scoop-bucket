@@ -66,13 +66,13 @@ scoop install terminus
 ### 安装IDE（8）
 
 scoop install oraclejdk
-scoop install Ash258/IntelliJ-IDEA-portable
+scoop install IntelliJ-IDEA-portable 111111111
 
 scoop install adb 
 scoop install android-sdk
 
 scoop install nodejs
-scoop install WebStorm-portable
+scoop install WebStorm-portable 1111111111111
 
 scoop install my/android-studio
 scoop install my/scrcpy-gui
@@ -81,10 +81,10 @@ scoop install my/scrcpy-gui
 
 scoop install my/quicklook
 scoop install my/listary
-scoop install my/keymap-replacer
+scoop install my/keymap-replacer 111111111111111111111
 
 scoop install my/caps-unlocker
-scoop install my/bandizip
+scoop install my/bandizip 1111111111111111111111
 scoop install my/mouse-inc
 
 scoop install my/yx-calendar
@@ -103,7 +103,7 @@ scoop install my/process-hacker
 
 scoop install my/noMeiryoUI
 scoop install my/yynote
-scoop install my/open-hashtab
+scoop install my/open-hashtab 1111111111111111111111
 
 scoop install my/space-sniffer
 
