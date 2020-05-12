@@ -5,7 +5,7 @@
         "identifier": "Freeware",
         "url": "https://en.bandisoft.com/bandizip/eula/"
     },
-    "version": "6.26",
+    "version": "6.26.1",
     "url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/bandizip.zip",
     "hash": "D6D3A852DB81F3CEB7F85A0BE7391897C075F944F842401B1D0788D20E2E7DBB",
     "persist": ["Bandizip.ini", "config.ini"],
