@@ -13,9 +13,13 @@ $env:SCOOP_GLOBAL='D:\Scoop\global\apps'
 
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
-### 安装基础包（4）
+### 安装基础包（7）
 
 scoop install git curl sudo aria2
+scoop install windowsterminal-np
+
+scoop install my/keymap-replacer 111111111111111111111
+scoop install my/bandizip 1111111111111111111111
 
 ### 添加bucket
 
@@ -31,19 +35,18 @@ scoop bucket add my https://github.com/tianzhijiexian/scoop-bucket
 
 ### 配置aria2
 
-scoop config aria2-enabled true
+scoop config aria2-enabled false
 scoop config aria2-max-connection-per-server 8
 scoop config aria2-split 8	
 scoop config aria2-min-split-size 3M
 
-### 安装必选包（6）
+### 安装必选包（5）
 
 scoop install googlechrome
 scoop install ditto
 scoop install snipaste
 
 scoop install cmder-full
-scoop install windowsterminal-np
 scoop install sublime-text
 
 ### 安装非必选包（10）
@@ -77,14 +80,12 @@ scoop install WebStorm-portable 1111111111111
 scoop install my/android-studio
 scoop install my/scrcpy-gui
 
-### 安装自定义bucket中必选包（12）
+### 安装自定义bucket中必选包（10）
 
 scoop install my/quicklook
 scoop install my/listary
-scoop install my/keymap-replacer 111111111111111111111
 
 scoop install my/caps-unlocker
-scoop install my/bandizip 1111111111111111111111
 scoop install my/mouse-inc
 
 scoop install my/yx-calendar
