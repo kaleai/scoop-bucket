@@ -13,13 +13,10 @@ $env:SCOOP_GLOBAL='D:\Scoop\global\apps'
 
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
-### 安装基础包（7）
+### 安装基础包（4）
 
-scoop install git curl sudo aria2
+scoop install git sudo aria2
 scoop install windowsterminal-np
-
-scoop install my/keymap-replacer 111111111111111111111
-scoop install my/bandizip 1111111111111111111111
 
 ### 添加bucket
 
@@ -32,6 +29,10 @@ scoop bucket add dorado https://github.com/h404bi/dorado
 scoop bucket add Ash258 https://github.com/Ash258/Scoop-Ash258.git
 scoop bucket add bear https://github.com/AStupidBear/scoop-bear
 scoop bucket add my https://github.com/tianzhijiexian/scoop-bucket
+
+### 安装基础包
+scoop install my/keymap-replacer
+scoop install my/bandizip 1111111111111111111111
 
 ### 配置aria2
 
