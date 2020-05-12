@@ -9,7 +9,7 @@ $env:SCOOP='D:\Scoop'
 [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
 
 $env:SCOOP_GLOBAL='D:\Scoop\global\apps'
-[environment]::setEnvironmentVariable('SCOOP_GLOBAL','$env:SCOOP_GLOBAL','Machine')
+[environment]::setEnvironmentVariable('SCOOP_GLOBAL',$env:SCOOP_GLOBAL,'Machine')
 
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
