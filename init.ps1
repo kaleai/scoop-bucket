@@ -41,7 +41,7 @@ scoop config aria2-min-split-size 3M
 ### 安装底层基础包
 
 scoop install my/keymap-replacer
-scoop install my/bandizip 1111111111111111111111
+scoop install my/bandizip
 
 ### 安装必选包
 
