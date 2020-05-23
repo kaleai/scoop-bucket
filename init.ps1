@@ -13,10 +13,11 @@ $env:SCOOP_GLOBAL='D:\Scoop\global\apps'
 
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
-### 安装基础包（4）
+### 安装基础包（5）
 
 scoop install git sudo aria2
 scoop install windowsterminal-np
+scoop install terminus
 
 ### 添加bucket
 
@@ -30,10 +31,6 @@ scoop bucket add Ash258 https://github.com/Ash258/Scoop-Ash258.git
 scoop bucket add bear https://github.com/AStupidBear/scoop-bear
 scoop bucket add my https://github.com/tianzhijiexian/scoop-bucket
 
-### 安装基础包
-scoop install my/keymap-replacer
-scoop install my/bandizip 1111111111111111111111
-
 ### 配置aria2
 
 scoop config aria2-enabled false
@@ -41,47 +38,49 @@ scoop config aria2-max-connection-per-server 8
 scoop config aria2-split 8	
 scoop config aria2-min-split-size 3M
 
-### 安装必选包（5）
+### 安装底层基础包
+scoop install my/keymap-replacer
+scoop install my/bandizip 1111111111111111111111
+
+### 安装必选包
 
 scoop install googlechrome
-scoop install ditto
-scoop install snipaste
-
 scoop install cmder-full
 scoop install sublime-text
 
-### 安装非必选包（10）
+### 安装非必选包
 
-scoop install geekuninstaller
+scoop install ditto
+scoop install snipaste
+scoop install wgestures
+
 scoop install freedownloadmanager
+scoop install geekuninstaller
 scoop install autohotkey-installer
 
 scoop install screentogif
 scoop install licecap
-scoop install dorado/dingtalk
 
 scoop install postman
 scoop install typora
 
-scoop install qttabbar
-scoop install update-qttabbar
-scoop install terminus
-
-### 安装IDE（8）
+### 安装IDE
 
 scoop install oraclejdk
 scoop install IntelliJ-IDEA-portable
 
-scoop install adb 
+scoop install adb
 scoop install android-sdk
+
+scoop install scrcpy
+scoop install my/scrcpy-gui
+
+scoop install my/android-studio
 
 scoop install nodejs
 scoop install WebStorm-portable
 
-scoop install my/android-studio
-scoop install my/scrcpy-gui
-
-### 安装自定义bucket中必选包（10）
+### 安装自定义bucket中必选包
 
 scoop install my/quicklook
 scoop install my/listary
@@ -90,30 +89,36 @@ scoop install my/caps-unlocker
 scoop install my/mouse-inc
 
 scoop install my/yx-calendar
-scoop install my/wgestures
 scoop install my/xyplorer
 
 scoop install my/huochat
 scoop install my/ahk-scripts
-scoop install my/mactype
 
-### 安装自定bucket中非必选包（7）
+### 安装非必选包
 
 scoop install my/wechat
-scoop install my/paper-icons
-scoop install my/process-hacker
-
-scoop install my/noMeiryoUI
-scoop install my/yynote
+scoop install dorado/dingtalk
 scoop install my/open-hashtab
 
-scoop install my/space-sniffer
+scoop install my/paper-icons
+scoop install my/noMeiryoUI
+scoop install my/mactype
 
-### 配置环境信息（1）
+### 配置环境信息
 
 scoop install my/env-config
 
-### 提权安装包（4）
+### 安装额外包
+
+scoop install my/space-sniffer
+scoop install my/yynote
+scoop install my/process-hacker
+
+scoop install qttabbar
+scoop install update-qttabbar
+
+
+### 提权安装字体
 
 sudo scoop install my/PingFang-C my/SourceCodePro-Lite -g
 sudo scoop install SarasaGothic-SC SourceCodePro-NF -g
