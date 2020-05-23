@@ -35,10 +35,11 @@ scoop bucket add my https://github.com/tianzhijiexian/scoop-bucket
 
 scoop config aria2-enabled false
 scoop config aria2-max-connection-per-server 8
-scoop config aria2-split 8	
+scoop config aria2-split 8
 scoop config aria2-min-split-size 3M
 
 ### 安装底层基础包
+
 scoop install my/keymap-replacer
 scoop install my/bandizip 1111111111111111111111
 

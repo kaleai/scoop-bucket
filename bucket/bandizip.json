@@ -9,16 +9,6 @@
     "url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/bandizip.zip",
     "hash": "D6D3A852DB81F3CEB7F85A0BE7391897C075F944F842401B1D0788D20E2E7DBB",
     "persist": ["Bandizip.ini", "config.ini"],
-    "installer":{
-        "script":[
-            "C:\\windows\\System32\\regsvr32.exe $dir\\bdzshl64.dll"
-        ]
-    },
-    "uninstaller":{
-        "script":[
-            "C:\\windows\\System32\\regsvr32.exe /u $dir\\bdzshl64.dll"
-        ]
-    },
     "bin": "Bandizip64.exe",
     "shortcuts": [
         [
