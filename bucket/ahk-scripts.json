@@ -1,7 +1,7 @@
 {
     "homepage": "https://www.autohotkey.com/",
     "description": "AutoHotKey Scripts",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "Freeware",
     "url": [
         "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/ahk-scripts/mouse.exe",
@@ -9,7 +9,7 @@
         "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/ahk-scripts/mmap.exe"
     ],
     "hash": [
-        "A2D98680FF8A014B7630D6E622F85EC34E0E172F27D164A39683956AA47D1829",
+        "26347B65FB2BCDB782FD71D036B0AF799C88F875D25F91FAE10D4DAF1A42DAE9",
         "BBB665A4814582DE0434061747AD2F7DD4F234174555C762892AAD7040165B8F",
         "162D71475302B7F6792556ABEC83B421C52089E139280592EA442CA1CC1661A6"
     ],
