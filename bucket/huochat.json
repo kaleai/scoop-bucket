@@ -1,7 +1,7 @@
 {
     "homepage": "https://www.huochaipro.com/",
     "description": "火柴(原火萤酱)，电脑必备，效率神器",
-    "version": "2.1.0.6",
+    "version": "2.1.0.7",
     "url": [
         "http://cd.huoying666.com/huochai/win/hc_GC5H6A.exe#/dl.7z",
         "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/hc_user_data.zip"
