@@ -112,14 +112,10 @@ scoop install my/env-config
 ### 安装额外包
 
 scoop install my/space-sniffer
-scoop install my/yynote
 scoop install my/process-hacker
-
-scoop install qttabbar
-scoop install update-qttabbar
 
 
 ### 提权安装字体
 
-sudo scoop install my/PingFang-C my/SourceCodePro-Lite -g
+sudo scoop install my/YaHeiMonacoHybrid my/SourceCodePro-Lite -g
 sudo scoop install SarasaGothic-SC SourceCodePro-NF -g
