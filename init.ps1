@@ -48,6 +48,7 @@ scoop install my/bandizip
 scoop install googlechrome
 scoop install cmder-full
 scoop install sublime-text
+scoop install github
 
 ### 安装非必选包
 
