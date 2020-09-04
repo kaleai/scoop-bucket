@@ -13,12 +13,6 @@ $env:SCOOP_GLOBAL='D:\Scoop\Global'
 
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
-### 安装基础包（5）
-
-scoop install git sudo aria2
-scoop install windowsterminal-np
-scoop install terminus
-
 ### 添加bucket
 
 scoop bucket add extras;
@@ -32,6 +26,7 @@ scoop bucket add bear https://github.com/AStupidBear/scoop-bear
 scoop bucket add my https://github.com/tianzhijiexian/scoop-bucket
 
 ### 配置aria2
+scoop install git sudo aria2
 
 scoop config aria2-enabled false
 scoop config aria2-max-connection-per-server 8
@@ -39,6 +34,9 @@ scoop config aria2-split 8
 scoop config aria2-min-split-size 3M
 
 ### 安装底层基础包
+
+scoop install windowsterminal-np
+scoop install terminus
 
 scoop install my/keymap-replacer
 scoop install my/bandizip
