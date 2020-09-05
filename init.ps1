@@ -40,6 +40,7 @@ scoop install terminus
 
 scoop install my/keymap-replacer
 scoop install my/bandizip
+scoop install my/clover
 
 ### 安装必选包
 
@@ -103,6 +104,10 @@ scoop install my/open-hashtab
 scoop install my/paper-icons
 scoop install my/noMeiryoUI
 scoop install my/mactype
+
+scoop install my/thunder-light
+scoop install my/thunderx
+
 
 ### 配置环境信息
 
