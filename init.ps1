@@ -36,16 +36,16 @@ scoop config aria2-min-split-size 3M
 ### 安装基础包
 
 scoop install windowsterminal-np
-
-scoop install cmder-full # ✔
-scoop install terminus
-
 scoop install my/keymap-replacer # ✔
+
 scoop install my/bandizip
 scoop install my/clover # ✔
 
-scoop install google-helper # ✔
+scoop install my/google-helper # ✔
 scoop install googlechrome # ✔
+
+scoop install cmder-full # ✔
+scoop install terminus
 
 scoop install sublime-text # ✔
 scoop install github # ✔
@@ -54,9 +54,10 @@ scoop install github # ✔
 
 scoop install ditto # ✔
 scoop install snipaste # ✔
-scoop install wgestures
 
+scoop install wgestures
 scoop install freedownloadmanager
+
 scoop install geekuninstaller # ✔
 scoop install autohotkey-installer # ✔
 
