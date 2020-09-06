@@ -1,7 +1,7 @@
 {
     "homepage": "https://developer.android.com/studio/",
     "description": "The official IDE for Android development, which includes everything you need to build Android apps.",
-    "version": "4.0.1.0",
+    "version": "4.0.1.1",
     "license": {
         "identifier": "Freeware",
         "url": "https://developer.android.com/studio/terms.html"
@@ -30,7 +30,7 @@
         ]
     ],
     "env_set": {
-        "ADB": "%ANDROID_HOME%\\platform-tools;%ANDROID_HOME%\\tools"
+        "ADB": "D:\\Scoop\\apps\\android-sdk\\current\\platform-tools;D:\\Scoop\\apps\\android-sdk\\current\\tools"
     },
     "persist": [
         "IDE\\bin\\idea.properties",
