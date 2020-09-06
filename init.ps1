@@ -48,6 +48,8 @@ scoop install cmder-full # ✔
 scoop install terminus
 
 scoop install sublime-text # ✔
+scoop install vscode
+
 scoop install github # ✔
 
 ### 安装非必选包
