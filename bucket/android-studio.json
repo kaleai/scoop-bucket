@@ -1,17 +1,17 @@
 {
     "homepage": "https://developer.android.com/studio/",
     "description": "The official IDE for Android development, which includes everything you need to build Android apps.",
-    "version": "3.6.1.0",
+    "version": "4.0.1.0",
     "license": {
         "identifier": "Freeware",
         "url": "https://developer.android.com/studio/terms.html"
     },
     "url": [
-        "https://dl.google.com/dl/android/studio/ide-zips/3.6.1.0/android-studio-ide-192.6241897-windows.zip",
+        "https://dl.google.com/dl/android/studio/ide-zips/4.0.1.0/android-studio-ide-193.6626763-windows.zip",
         "https://raw.githubusercontent.com/Ash258/Scoop-JetBrains/master/scripts/portable.ps1"
     ],
     "hash": [
-        "1aee0ed24a30b9e87ced4112be884ef5990d5c19f7a821209e15d59e92f7c676",
+        "f328a9bf230fc7aa4ced26407b3880820707c48e055e7de5188e1a8174cd96cb",
         "5b43fc8a57d7d8d519071a50849a5db92c90ecdf56b64ac57f15fdae5b4f0572"
     ],
     "extract_dir": "android-studio",
@@ -30,7 +30,7 @@
         ]
     ],
     "env_set": {
-        "ADB": "%ANDROID_HOME%\\platform-tools;%ANDROID_HOME%\tools"
+        "ADB": "%ANDROID_HOME%\\platform-tools;%ANDROID_HOME%\\tools"
     },
     "persist": [
         "IDE\\bin\\idea.properties",
@@ -38,12 +38,5 @@
     ],
     "suggest": {
         "SDK": "android-sdk"
-    },
-    "checkver": "ide-zips/([\\d.]+)/android-studio-ide-(?<build>[\\d.]+)-windows",
-    "autoupdate": {
-        "url": "https://developer.android.com/studio/",
-        "hash": {
-            "url": "$url.sha256"
-        }
     }
 }

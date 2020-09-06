@@ -33,19 +33,20 @@ scoop config aria2-max-connection-per-server 8
 scoop config aria2-split 8
 scoop config aria2-min-split-size 3M
 
-### 安装底层基础包
+### 安装基础包
 
-scoop install windowsterminal-np # ✔
+scoop install windowsterminal-np
+
+scoop install cmder-full # ✔
 scoop install terminus
 
 scoop install my/keymap-replacer # ✔
 scoop install my/bandizip
 scoop install my/clover # ✔
 
-### 安装必选包
-
+scoop install google-helper # ✔
 scoop install googlechrome # ✔
-scoop install cmder-full # ✔
+
 scoop install sublime-text # ✔
 scoop install github # ✔
 
@@ -73,8 +74,8 @@ scoop install IntelliJ-IDEA-portable
 scoop install adb # ✔
 scoop install android-sdk
 
-scoop install scrcpy
-scoop install my/scrcpy-gui
+scoop install scrcpy # ✔
+scoop install my/scrcpy-gui # ✔
 
 scoop install my/android-studio
 
