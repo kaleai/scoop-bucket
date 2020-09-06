@@ -55,7 +55,7 @@ scoop install github # ✔
 scoop install ditto # ✔
 scoop install snipaste # ✔
 
-scoop install wgestures
+scoop install wgestures # ✔
 scoop install freedownloadmanager
 
 scoop install geekuninstaller # ✔
