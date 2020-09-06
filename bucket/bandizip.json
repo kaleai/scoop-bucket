@@ -1,19 +1,23 @@
 {
-    "homepage": "http://www.bandisoft.com/bandizip/",
-    "description": "Yet another typical ZIP archiver.",
-    "license": {
-        "identifier": "Freeware",
-        "url": "https://en.bandisoft.com/bandizip/eula/"
-    },
-    "version": "6.26.1",
-    "url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/bandizip.zip",
-    "hash": "D6D3A852DB81F3CEB7F85A0BE7391897C075F944F842401B1D0788D20E2E7DBB",
-    "persist": ["Bandizip.ini", "config.ini"],
-    "bin": "Bandizip64.exe",
-    "shortcuts": [
-        [
-            "Bandizip64.exe",
-            "Bandizip"
-        ]
+  "homepage": "http://www.bandisoft.com/bandizip/",
+  "description": "Yet another typical ZIP archiver.",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://en.bandisoft.com/bandizip/eula/"
+  },
+  "version": "6.26.2",
+  "url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/bandizip.zip",
+  "hash": "D6D3A852DB81F3CEB7F85A0BE7391897C075F944F842401B1D0788D20E2E7DBB",
+  "persist": [
+    "Bandizip.ini",
+    "config.ini"
+  ],
+  "bin": "Bandizip64.exe",
+  "shortcuts": [
+    [
+      "Bandizip64.exe",
+      "Bandizip"
     ]
+  ],
+  "notes": "需要自行执行注册表来导入Bandizip的配置"
 }

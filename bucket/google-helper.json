@@ -1,8 +1,9 @@
 {
-	"homepage": "http://www.google.com",
-	"description": "Google Helper",
-	"version": "2.3.0",
-	"license": "Freeware",
-	"url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/google-helper.zip",
-	"hash": "353D4C7481E453400DD783305C5918C6626AA3FF6E0765CB71BFC592A78F1950"
+  "homepage": "http://www.google.com",
+  "description": "Google Helper FGW",
+  "version": "2.3.1",
+  "license": "Freeware",
+  "url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/google-helper.zip",
+  "hash": "DC82D0079864A3D19BA3FDF654A8D3460D1D0D40246FDDFA5E89946DA24FA311",
+  "notes": "手动拖动到Chrome的扩展程序列表中"
 }
