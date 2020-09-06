@@ -55,8 +55,8 @@ scoop install github # ✔
 scoop install ditto # ✔
 scoop install snipaste # ✔
 
-scoop install wgestures # ✔
-scoop install freedownloadmanager
+scoop install my/wgestures # ✔
+scoop install my/freedownloadmanager # ✔
 
 scoop install geekuninstaller # ✔
 scoop install autohotkey-installer # ✔
@@ -64,8 +64,10 @@ scoop install autohotkey-installer # ✔
 scoop install screentogif # ✔
 scoop install licecap # ✔
 
-scoop install postman # ✔
+scoop install postman # ✔ 
 scoop install typora # ✔
+
+scoop install spacesniffer # ✔
 
 ### 安装IDE
 
@@ -78,12 +80,12 @@ scoop install android-sdk
 scoop install scrcpy # ✔
 scoop install my/scrcpy-gui # ✔
 
-scoop install my/android-studio
+scoop install my/android-studio # ✔
 
-scoop install nodejs
+scoop install nodejs # ✔
 scoop install WebStorm-portable
 
-### 安装自定义bucket中必选包
+### 安装自定义bucket包
 
 scoop install my/quicklook # ✔
 scoop install my/listary
@@ -97,29 +99,24 @@ scoop install my/xyplorer
 scoop install my/huochat
 scoop install my/ahk-scripts # ✔
 
-### 安装非必选包
+scoop install my/wechat # ✔
+scoop install dorado/dingtalk # ✔
 
-scoop install my/wechat
-scoop install dorado/dingtalk
 scoop install my/open-hashtab # ✔
-
 scoop install my/paper-icons # ✔
+
 scoop install my/noMeiryoUI # ✔
 scoop install my/mactype # ✔
 
-scoop install my/thunder-light # ✔
 scoop install my/thunderx # ✔
+scoop install my/thunder-light # ✔
+
+scoop install my/process-hacker # ✔
 
 
 ### 配置环境信息
 
-scoop install my/env-config
-
-### 安装额外包
-
-scoop install my/space-sniffer
-scoop install my/process-hacker
-
+scoop install my/env-config # ✔
 
 ### 提权安装字体
 
