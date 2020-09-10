@@ -1,6 +1,9 @@
 ### https://www.iamzs.cn/archives/scoop-guidebook.html
 ### https://github.com/lukesampson/scoop/wiki/Pre--and-Post-install-scripts
 
+### 浏览器书签、浏览器脚本、浏览器css样式
+### 输入法信息
+
 set-executionpolicy remotesigned -scope currentuser
 
 ### 安装scoop并自定义安装路径
@@ -38,7 +41,7 @@ scoop config aria2-min-split-size 3M
 scoop install windowsterminal-np
 scoop install my/keymap-replacer # ✔
 
-scoop install my/bandizip
+scoop install my/bandizip # ✔
 scoop install my/clover # ✔
 
 scoop install my/google-helper # ✔
@@ -93,7 +96,7 @@ scoop install my/quicklook # ✔
 scoop install my/listary
 
 scoop install my/caps-unlocker # ✔
-scoop install my/mouse-inc
+scoop install my/mouse-inc # ✔
 
 scoop install my/yx-calendar
 scoop install my/xyplorer

@@ -7,7 +7,7 @@
   },
   "version": "6.26.2",
   "url": "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/bandizip.zip",
-  "hash": "D6D3A852DB81F3CEB7F85A0BE7391897C075F944F842401B1D0788D20E2E7DBB",
+  "hash": "759D59AF631599225CF4288D5CCD5882CB3E671C9AADAA7AD623A5A66F45D3F2",
   "persist": [
     "Bandizip.ini",
     "config.ini"
